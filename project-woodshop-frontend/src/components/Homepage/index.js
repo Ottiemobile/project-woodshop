@@ -1,10 +1,17 @@
 
+import Header from "../Header";
+
+
 function Homepage(props){
+    
     return (
-        <div className="navigation">
-            <p>insert navigation here</p>
+        <div>
+            <Header></Header>
+
+
+
         </div>
-    );
+    )
 }
 
 
